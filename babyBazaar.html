@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>HTML marquee Tag</title>
 <style>
@@ -8,8 +8,28 @@ h1 {color:blue}
 h1 {text-align:center}
 body {color:red}
 </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BabyBazaar</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li> 
+      <li><a href="#">Buying Guides</a></li>
+	  <li><a href="#">Gift Cards</a></li>
+	  <li><a href="#">Recommended For You</a></li>
+	  <li><a href="Templates/Price.html">Membership</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Templates/Signup.html"><span class="glyphicon glyphicon-user"></span> Register/Login</a></li>
+      </ul>
+  </div>
+</nav>
 <h1>babybazaar </h1>
 <img src="carseat.jpg" alt="Car Seat" width="104" height="142">
 <img src="infanttoilet.jpg" alt="Baby Sanitary" width="104" height="142">
@@ -20,14 +40,37 @@ body {color:red}
 babybazaar is a one-stop dedicated website for all baby products from all retailers over the country at discounted price.
 Customers can choose wide variety of products and save more by subscribing those products.
 </p>
-<a href="http://www.google.com">Click here  for Black Friday Deals<br></a>
+<a href="http://www.google.com">Click here  for Deals<br></a>
 </body>
 <body>
-<button style="text-align:left" onclick="location.href = 'http://www.google.com';" id="myButton" class="float-left submit-button" >Boys Products</button><br>
-<button style="text-align:left" onclick="location.href = 'http://www.google.com';" id="myButton" class="float-left submit-button" >Girls Products</button><br>
-<button style="text-align:left" onclick="location.href = 'http://www.google.com';" id="myButton" class="float-left submit-button" >Infants Products</button><br>
-<button style="text-align:left" onclick="location.href = 'http://www.google.com';" id="myButton" class="float-left submit-button" >Clearance</button>
-
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" aria-label="Left Align">
+    Categories
+    <span class="caret"></span>
+	  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Boys Products</a></li>
+    <li><a href="#">Girls Products</a></li>
+    <li><a href="#">Infants Products</a></li>
+	<li><a href="#">Clearance</a></li>
+    <li role="separator" class="divider"></li>
+    </ul>
+</div>
 <marquee>Best Place to Shop for Kids</marquee><br>
 </body>
+<head>
+<body>
+<div class="container">
+<div-class="page-header">
+<h2>Baby Registry</h2>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+ <p>Create wish list for baby and share with family and friends</p>
+ </div>
+
+ <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ </body>
 </html>
